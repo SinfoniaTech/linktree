@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Orquestra &middot; Grupo Challenger &mdash; FIAP Challenge 2026</title>
+  <meta name="description" content="Linktree do Grupo SinfoniaTech, equipe criadora do Orquestra: camada de inteligencia operacional para a OTIS. FIAP Challenge 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/logos/orquestra-opt.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabecalho: logo Orquestra sobre o azul-marinho -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <img class="brand-logo" src="assets/logos/orquestra-opt.png" alt="Orquestra" width="237" height="56">
+      </div>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- Coluna esquerda: sobre o ORQUESTRA -->
+    <section class="about" aria-labelledby="about-title">
+      <p class="eyebrow">FIAP Challenge 2026 &middot; OTIS</p>
+      <h1 id="about-title">Antecipar o cr&iacute;tico. Aprender com o hist&oacute;rico.</h1>
+
+      <p>O Orquestra é uma camada de intelig&ecirc;ncia operacional que integra e contextualiza os dados dos sistemas j&aacute; existentes da OTIS (contratos, SLAs, equipamentos, t&eacute;cnicos, IoT e hist&oacute;rico) para apoiar decis&otilde;es em tempo h&aacute;bil.</p>
+      <p>Um modelo de risco em quatro estados (verde, amarelo, laranja e vermelho) mostra a situa&ccedil;&atilde;o de cada chamado, com o laranja como a janela de interven&ccedil;&atilde;o: o momento certo para agir antes que o problema se torne cr&iacute;tico.</p>
+
+      <ul class="risk-legend" aria-label="Estados do modelo de risco">
+        <li><span class="dot dot--green" aria-hidden="true"></span>Verde</li>
+        <li><span class="dot dot--yellow" aria-hidden="true"></span>Amarelo</li>
+        <li><span class="dot dot--orange" aria-hidden="true"></span>Laranja</li>
+        <li><span class="dot dot--red" aria-hidden="true"></span>Vermelho</li>
+      </ul>
+
+      <p class="about-footer">Desenvolvido pelo Grupo SinfoniaTech &middot; FIAP</p>
+    </section>
+
+    <!-- Coluna direita: linhas de link dos membros (renderizadas por script.js) -->
+    <section class="members" aria-labelledby="members-title">
+      <p class="eyebrow" id="members-title">Equipe &middot; LinkedIn</p>
+      <div class="member-list" id="member-list"></div>
+    </section>
+
+  </main>
+
+  <!-- Rodape: FIAP (esquerda) e OTIS (direita), abaixo de todo o conteudo -->
+  <footer class="site-footer">
+    <div class="partner-row">
+      <img class="partner-logo" src="assets/logos/fiap-logo.png" alt="FIAP" width="119" height="32">
+      <img class="partner-logo" src="assets/logos/otis-logo.png" alt="OTIS" width="98" height="32">
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
