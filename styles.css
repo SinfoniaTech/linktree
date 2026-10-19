@@ -29,13 +29,13 @@
   --radius-pill: 999px;
 
   /* Linhas de link */
-  --row-h: 40px;                  /* altura de cada linha (45px no mobile) */
-  --photo-h: 55px;                /* tamanho do quadrado de foto do membro (45px no mobile) */
-  --icon-h: 40px;                 /* tamanho do icone do LinkedIn (36px no mobile) */
+  --row-h: 45px;                  /* altura de cada linha (45px no mobile) */
+  --photo-h: 45px;                /* tamanho do quadrado de foto do membro (45px no mobile) */
+  --icon-h: 45px;                 /* tamanho do icone do LinkedIn (36px no mobile) */
   --name-h: 22px;                 /* altura da etiqueta do nome do membro (20px no mobile) */
-  --name-top: -25px;              /* distancia da etiqueta do nome sobre a linha */
-  --row-gap: 8px;                 /* espaco entre os 3 blocos de uma linha */
-  --rows-gap: 45px;               /* espaco vertical entre linhas (folga do nome) */
+  --name-top: -16px;              /* distancia da etiqueta do nome sobre a linha */
+  --row-gap: 5px;                 /* espaco entre os 3 blocos de uma linha */
+  --rows-gap: 30px;               /* espaco vertical entre linhas (folga do nome) */
 
   /* Sombras */
   --shadow-subtle: 0 1px 2px rgba(0, 0, 0, .18), 0 2px 6px rgba(0, 0, 0, .22);
@@ -272,7 +272,7 @@ img { display: block; max-width: 100%; }
 .link-row:hover .li-icon { filter: brightness(1.06); }
 
 #members-title {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 
 /* Nome do membro sobreposto a linha */
@@ -302,7 +302,7 @@ img { display: block; max-width: 100%; }
 /* ---------- Mobile (abaixo de 768px): coluna unica, texto acima ---------- */
 
 @media (max-width: 768px) {
-  :root { --row-h: 45px; --photo-h: 45px; --icon-h: 36px; --name-h: 20px; --rows-gap: 20px; }
+  /* :root { --row-h: 45px; --photo-h: 45px; --icon-h: 36px; --name-h: 20px;} */
 
   .header-inner { padding: 16px 20px 8px; }
   .partner-logo { height: 26px; }
